@@ -37,7 +37,7 @@ public class TestBase {
 		// config.prop
 		 CONFIG = new Properties();
 		try {
-			FileInputStream fs = new FileInputStream("/Users/mohamedasruf/cucumber/config.properties");			CONFIG.load(fs);
+			FileInputStream fs = new FileInputStream("/Users/mohamedasruf/git/cucumber/cucumber/config.properties");			CONFIG.load(fs);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

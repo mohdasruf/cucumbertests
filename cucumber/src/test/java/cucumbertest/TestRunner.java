@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "Feature",glue="stepDefinition"
+		features = "Feature",glue="stepDefinition",tags={"@PositiveScenario,@NegativeScenario"}
 		)
 
 public class TestRunner {
