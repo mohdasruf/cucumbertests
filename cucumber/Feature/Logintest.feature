@@ -8,8 +8,8 @@ Scenario Outline: Successful Login with Valid Credentials
 	Then Message displayed Login Successfully
 Examples:
 	|Username|Password|
-	|d681982@gmail.com|Dsr-301282|
-	|d681982@gmail.com|Dsr-301282|
+	|xxx@gmail.com|XXX|
+	|xxx@gmail.com|XXX|
 	
 @NegativeScenario
 Scenario: Successful Login with InValid Credentials
