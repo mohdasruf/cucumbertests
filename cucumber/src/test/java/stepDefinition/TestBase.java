@@ -7,7 +7,6 @@ import java.util.Properties;
 import org.openqa.selenium.remote.CapabilityType;  
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -25,7 +24,6 @@ import org.openqa.selenium.support.PageFactory;
 // xslt reports
 public class TestBase {
 
-	public static Logger APPLICATION_LOGS = null;
 	public static Properties CONFIG=null;
 	public static WebDriver driver=null;
 	public static boolean isLoggedIn=false;
